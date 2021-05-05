@@ -1,0 +1,25 @@
+
+.container{
+	padding: 100px 0;
+	text-align: center;
+}
+textarea{
+	margin-bottom: 30px;
+}
+.calculate-words{
+	float: right;
+}
+.block{
+	display: block;
+	text-align: left;
+}
+.display-1{
+	margin-bottom: 40px;
+}
+li{
+	font-size: 18px;
+}
+li span{
+	font-weight: bold;
+	color: red;
+}
