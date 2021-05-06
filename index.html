@@ -14,16 +14,35 @@
 		
 		<h1 class="display-1">Calculate Your Text </h1>
 		<div class="form-floating ">
-		  <textarea class="form-control textarea " placeholder="Your Paraghraph" id="floatingTextarea2" style="height: 100px"></textarea>
+		  <textarea class="form-control textarea " placeholder="Your Paraghraph" id="floatingTextarea2 textarea" style="height: 100px"></textarea>
 		  <button type="button " class="btn btn-success calculate-words float-end">Clacuate</button>
-
+		  
 		</div>
 		<div class="block container">
-			<h3>Your Text Analytic :</h3>
-			<ul>
-				<li>Number Of Words : <span class="w-number"></span></li>
-				<li>Number Of Charchters : <span class="c-number"></span></li>
-			</ul>
+			<div class="row">
+				
+				<div class="text col-10">
+					<p></p>
+				</div>
+				<h3 class="col-12">Your Text Analytic :</h3>
+				<ul class="col-6">
+					<li>Number Of Words : <span class="w-number"></span></li>
+					<li>Number Of Charchters : <span class="c-number"></span></li>
+					
+					
+				</ul>
+				<ul class="col-6 block-r">
+					<li>Enter To know How many this wor was repeated:</li>
+					<li>
+						<input type="text" name="text" placeholder="Enter a word here" value class="input-search">
+						<button type="button " class="btn btn- search float-end">search</button>
+					</li>
+					
+					<li class="s-result">The Word <span class="word-va"></span> was repeated <span class="repeated"></span> Time</li>
+				</ul>
+
+				</div>
+			
 		</div>
 		
 	</div>
